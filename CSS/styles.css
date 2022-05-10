@@ -126,7 +126,7 @@ button:hover, button:focus {
 }
 
 .page-header__item {
-  flex: 0 1 200px;
+  flex: 0 1 50px;
 }
 
 .page-header__item:last-child {
