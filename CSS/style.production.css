@@ -42,12 +42,12 @@ h1{
 }
 
 a {
-  color: #3e63ff;
+  color: #0e1860;
 }
 
 a:visited {
   /* visited link */
-  color: #3e63ff;
+  color: ##0e1860;
 }
 
 a:hover, a:focus {
@@ -57,23 +57,7 @@ a:hover, a:focus {
 
 a:active {
   /* selected link */
-  color: #3e63ff;
-}
-/* removed the buttons, but left code just in case I use it later*/
-button {
-  /* overwrites browser defaults and resets the border */
-  border: none;
-  /* takes the font from the outer container */
-  font-family: inherit;
-  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: #c8c8c8;
-  color: #fff;
-  text-decoration: none;
-  /*adds spacing to the button (this will be discussed more in-depth later) */
-  padding: 10px;
-  border-radius: 3px;
-  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  color: ##0e1860;
 }
 
 button:hover, button:focus {
@@ -140,8 +124,6 @@ button:hover, button:focus {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50px;
           flex: 0 1 50px;
-
-
 }
 
 .page-header__item:last-child {
@@ -218,7 +200,7 @@ button:hover, button:focus {
   font-family: inherit;
   /* styles the button */
   background-color: #c8c8c8;
-  color: white;
+  color: ##0e1860;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -237,7 +219,7 @@ button {
   font-family: inherit;
   /* styles the button */
   background-color: #c8c8c8;
-  color: white;
+  color: ##0e1860;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -349,12 +331,15 @@ button:focus,
           animation: 40s cloud-move-reverse infinite alternate linear;
 }
 
+.contact {
+  color: #0e1860;
+}
 
 
 .container {
   width: 90%;
-  mad-width: 1200px;
-  margin: 0;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .about-page {
