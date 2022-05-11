@@ -47,7 +47,7 @@ a {
 
 a:visited {
   /* visited link */
-  color: ##0e1860;
+  color: #0e1860;
 }
 
 a:hover, a:focus {
@@ -57,7 +57,7 @@ a:hover, a:focus {
 
 a:active {
   /* selected link */
-  color: ##0e1860;
+  color: #0e1860;
 }
 
 button:hover, button:focus {
@@ -200,7 +200,7 @@ button:hover, button:focus {
   font-family: inherit;
   /* styles the button */
   background-color: #c8c8c8;
-  color: ##0e1860;
+  color: #0e1860;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -219,7 +219,7 @@ button {
   font-family: inherit;
   /* styles the button */
   background-color: #c8c8c8;
-  color: ##0e1860;
+  color: #0e1860;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
